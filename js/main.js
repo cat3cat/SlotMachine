@@ -56,8 +56,16 @@
           return this.img.src !== p1.img.src && this.img.src !== p2.img.src;
         }
 
+        isMatched(p1,p2){          
+          return this.img.src === p1.img.src && this.img.src === p2.img.src;
+        }
+
         unmatch(){
           this.img.classList.add('unmatched'); 
+        }
+
+        Match(){
+          spin.textContent = 'おめでとう';
         }
 
         activate(){
@@ -76,6 +84,15 @@
     }
     if(panels[2].isUnmatched(panels[0],panels[1])){
       panels[2].unmatch();
+    }
+    if(panels[0].isMatched(panels[1],panels[2])){
+     panels[0].Match();
+    }
+    if(panels[1].isMatched(panels[0],panels[2])){
+     panels[1].Match();
+    }
+    if(panels[2].isMatched(panels[0],panels[1])){
+     panels[2].Match();
     }
   }
 
