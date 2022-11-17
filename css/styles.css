@@ -20,6 +20,7 @@ main{
   width:100px;
   height: 130px;
   margin-bottom: 4px;
+  user-select: none;
 }
 
 .stop{
@@ -33,7 +34,7 @@ main{
   text-align: center;  
   font-size: 14px;
   color: white;
-   user-select: none;/*テキストの選択させない */
+  user-select: none;/*テキストの選択させない */
 }
 
 #spin{
