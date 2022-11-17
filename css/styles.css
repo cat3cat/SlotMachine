@@ -6,7 +6,7 @@ body{
 }
 
 main{
-  width:400px;
+  width:360px;
   background: #ecf0f1;
   padding: 20px;
   border: 4px white solid;
@@ -17,14 +17,14 @@ main{
 }
 
 .panel img{
-  width:120px;
+  width:100px;
   height: 130px;
   margin-bottom: 4px;
 }
 
 .stop{
   cursor:pointer;
-  width: 120px;
+  width: 100px;
   height: 42px;
   background: #ef454a;
   box-shadow: 0 4px #d1483e;
