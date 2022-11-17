@@ -114,6 +114,7 @@
       panel.activate();
       panel.spin();
     })
+    spin.textContent = 'SPIN';
   });
 
 }
